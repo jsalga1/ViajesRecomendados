@@ -5,8 +5,8 @@ require("dotenv").config({ path: path.join(__dirname, "./.env") });
 
 // Módulo para la creación de servidor http.
 // Definición de aplicación Express.
-const express =require("express");
-const app =express();
+const express = require("express");
+const app = express();
 
 
 // MIddleware log de eventos de express.
@@ -160,7 +160,7 @@ app.use ((req, res) => {
   });
 });
 
-const port = process.env.PORT;
+const port = 3000;
 
 
 app.listen(port, () => {

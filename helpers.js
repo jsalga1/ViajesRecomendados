@@ -9,8 +9,7 @@ const sendgrid = require("@sendgrid/mail");
 const { format } = require("date-fns");
 
 // Definimos directorio de subida de imágenes
-const imageUploadPath = path.join(__dirname, process.env.UPLOAD_DIR);
-
+const joinedPath = path.join(path.toString(), "..", "index.js");
 function formatDateToDB(date) {
   return format(new Date(date), "yyyy-MM-dd HH:mm:ss");
 }
