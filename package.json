@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sofiaffernandez/ViajesRecomendados.git"
+    "url": "git+https://github.com/jsalga1/ViajesRecomendados.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sofiaffernandez/ViajesRecomendados/issues"
+    "url": "https://github.com/jsalga1/ViajesRecomendados/issues"
   },
-  "homepage": "https://github.com/sofiaffernandez/ViajesRecomendados#readme",
+  "homepage": "https://github.com/jsalga1/ViajesRecomendados",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.47.1",
     "@typescript-eslint/parser": "^5.47.1",
